@@ -16,8 +16,8 @@
 
 char auth[]="XZis3p_CVZzT2AKVGgYghSS_vTRzRoXR"; // blynk token
                                                                        
- char ssid[] = "karira";              //Your router SSID and password                             
-char password[] =  "self1875"; 
+ char ssid[] = "xxxxxxxxx";              //Your router SSID and password                             
+char password[] =  "xxxxxxxx"; 
 
 const char* host = "api.thingspeak.com";
 const int httpPortRead = 80;                                           
