@@ -23,3 +23,5 @@ Requirements to get started
 	// add your unique api_key
 
 
+On BLYNK add the three gauges  one for cases, recoveries and Deaths. Each is to be assigned a Virtual Pin according to the code.
+Upload the code and RUN BLYNK App.
