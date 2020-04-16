@@ -10,4 +10,16 @@ Requirements to get started
 •	NodeMcu module
 
 
- Create a 
+ Create a Thinghttp under apps
+  Under thingspeak create a ThingHTTP and under URL  add https://www.worldometers.info/coronavirus/
+	Method: GET
+	Parse String: 
+		Go to https://www.worldometers.info/coronavirus/ 
+		Choose your country and under each field e.g Cases right click and select Inspect
+		Copy the XPath to Parse String and save.
+
+	This will generate an API which is to be added to the url in the arduino code
+	e.g const char* url3 = "/apps/thinghttp/send_request?api_key=6FAFZP7ZQ1XVY54Y";
+	// add your unique api_key
+
+
